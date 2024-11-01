@@ -1,0 +1,133 @@
+/* Definição das fontes Avenir Next LT Pro com suas variações */
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-BoldCn.otf') format('opentype');
+  font-weight: 700;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-BoldCnIt.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-Cn.otf') format('opentype');
+  font-weight: 400;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-CnIt.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-Demi.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-DemiCn.otf') format('opentype');
+  font-weight: 600;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-DemiCnIt.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-DemiIt.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-HeavyCn.otf') format('opentype');
+  font-weight: 800;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-HeavyCnIt.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-It.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-MediumCn.otf') format('opentype');
+  font-weight: 500;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-MediumCnIt.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro Regular';
+  src: url('./Fonts/avenir-next/AvenirNextLTPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./Fonts/kepler-std-3-cdnfonts/KeplerStdBlack.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Kepler Std medium Scn';
+  src: url('./Fonts/kepler-std-3-cdnfonts/KeplerStdScn.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kepler Std Bold SCN';
+  src: url('./Fonts/kepler-std-3-cdnfonts/KeplerStdBoldScn.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kepler Std Medium Italic';
+  src: url('./Fonts/kepler-std-3-cdnfonts/KeplerStdMediumIt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Kepler Std Extended Italic';
+  src: url('./Fonts/kepler-std-3-cdnfonts/KeplerStdExtIt.otf') format('opentype');
+}

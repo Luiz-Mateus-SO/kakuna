@@ -1,0 +1,4 @@
+avenir-next
+kepler-std-3-cdnfonts
+kepler-std-italic_1JqbY
+nomes.txt

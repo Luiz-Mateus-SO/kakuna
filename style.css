@@ -1,0 +1,369 @@
+body, header {
+  width: 100%;
+}
+
+.slick-carousel {
+  overflow: hidden; /* Oculta o overflow do carrossel */
+}
+
+
+.about-us__section, .services__section {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 28px 0 28px 0;
+}
+
+.logo {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-hamburguer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-hamburguer:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.menu-hamburguer:hover .line {
+  background: #F78E2C;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.line {
+  display: block;
+  width: 44px;
+  height: 5px;
+  background: #302D3D;
+}
+
+/* banner */
+
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./arquivos-cliente/predios-kakuna.jpg");
+  height: 400px;
+}
+
+.banner__text {
+  font-family: Kepler Std medium Scn;
+  font-size: 60px;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+}
+
+.construction__text {
+  position: relative;
+}
+
+.construction__text:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 4px;
+    bottom: -17px;
+    right: 176px;
+    background: white;
+}
+
+/* About us */
+
+.about-us__section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.about-us__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 58px;
+}
+
+.kakuna__icon {
+  opacity: 20%;
+  width: 300px;
+  height: 300px;
+}
+
+.about-us__container {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-us__title {
+  font-family: Kepler Std Bold SCN;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+
+.about-us__title-divisor {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #F78E2C;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-us__text {
+  font-family: Avenir Next LT Pro Regular;
+  font-size: 14px;
+  line-height: 25px;
+  width: 100%;
+  max-width: 461px;
+  margin-bottom: 22px;
+}
+
+.about-us__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-us__list-mark {
+  display: block;
+  border: 2px solid #F78E2C;
+  width: 14px;
+  height: 14px;
+}
+
+.about-us__item-text {
+  font-family: Kepler Std Medium Italic;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* Depoiment */
+
+.depoiment__section {
+  display: flex;
+  background: #302D3D;
+  min-height: 280px;
+  align-items: center;
+  justify-content: center;
+}
+
+.depoiment__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoiment {
+  max-width: 996px;
+  width: 100%;
+  min-height: 134px;
+  font-family: Kepler Std Extended Italic;
+  font-size: 36px;
+  line-height: 45px;
+  color: white;
+  text-align: center;
+}
+
+.depoiment__divisor {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #F78E2C;
+  margin-top: 22px;
+}
+
+.depoiment__author {
+  font-family: Avenir Next LT Pro Regular;
+  font-size: 14px;
+  line-height: 45px;
+  color: #F78E2C;
+  margin-top: 6px;
+}
+
+/* Services */
+
+.services__section {
+  display: flex;
+  padding: 60px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.services__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.services__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.services__item-title {
+  font-family: Kepler Std Bold SCN;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.services__divisor {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #F78E2C;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.services__description {
+  font-family: Avenir Next LT Pro Regular;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  font-family: Kepler Std Bold SCN;
+  font-size: 24px;
+  color: #302D3D;
+  background: transparent;
+  border: none;
+}
+
+.contact-btn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.contact-btn__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 45px;
+  background: transparent;
+  border: 4px solid #302D3D;
+  padding: 2px 20px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-btn__link:hover {
+  background: #302D3D;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .banner__container {
+    padding: 20px;
+  }
+
+  .banner__text {
+    font-size: 42px;
+  }
+
+  .construction__text:before {
+    right: 108px;
+  }
+
+  .about-us__section {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-us__container {
+    max-width: 461px;
+    width: 84%;
+  }
+
+  .about-us__title-container {
+    align-self: flex-start;
+  }
+
+  .about-us__image-container {
+    margin: 0;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .depoiment__section {
+    padding: 20px;
+  }
+
+  .depoiment {
+    font-size: 20px !important;
+    line-height: 29px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-carousel {
+    width: 100%; 
+  }
+
+  .services__item {
+    margin: 0 auto; 
+  }
+
+  .slick-slide {
+    margin: 0 10px; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-us__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us__title-container {
+    align-self: flex-start;
+  }
+
+  .depoiment__container {
+    padding: 20px;
+  }
+
+  .depoiment {
+    font-size: 32px;
+    line-height: 41px;
+  }
+
+}
+
